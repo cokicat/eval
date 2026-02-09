@@ -30,9 +30,8 @@ int main(int argc, char *argv[]) {
 
 				if (parse(input, tokens, &token_count)) {
 					eval(tokens, &token_count);
+					printf("%s\n", tokens[0]);
 				}
-
-				printf("%s\n", tokens[0]);
 			} else {
 				return 1;
 			}
