@@ -1,9 +1,9 @@
 # eval
 This is a minimal implementation of the eval function I made to learn C.  
-The code is probably a mess since it's my first time finishing a project in C. The syntax is very simple: the parser only supports basic operations like `+`, `-`, `*` or `/`. Brackets and floating numbers are not supported and spaces or new lines are skipped.
+The code is probably shit since it's my first time finishing a project in C. The syntax is very simple: the parser only supports basic operations like `+`, `-`, `*` or `/`. Brackets and floating numbers are not supported and spaces or new lines are skipped.
 
 ## Compiling
-Just run (no dependencies):
+No dependencies, just run:
 ```
 make
 ```
