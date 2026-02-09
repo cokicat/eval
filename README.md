@@ -23,4 +23,4 @@ eval 1+1
 ## TODO
 - [ ] Add support for brackets (add better support for relative numbers)
 - [ ] Add support for floating numbers
-- [ ] Add dynamic tokens support
+- [ ] Add dynamic tokens support - fix overflow caused by >32bits numbers (int -> long long)
