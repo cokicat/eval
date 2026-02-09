@@ -13,11 +13,12 @@ make
 eval [EXPRESSION]
 ```
 If started without arguments, `eval` will run in interactive mode, else it will evaluate the first argument.  
-Example:
+
+### Example
 ```
 eval 1+1
 ```
-This will print `2` to stderr.
+... will print `2` to stdout.
 
 ## TODO
 - [ ] Add support for brackets (add better support for relative numbers)
