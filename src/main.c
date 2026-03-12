@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[]) {
 	if (argc > 2) {
-		fprintf(stderr, "Too many arguments");
+		fprintf(stderr, "Too many arguments\n");
 		return 1;
 	} else if (argc == 2) {
 		char tokens[MAX_TOKENS][MAX_TOKEN_LEN] = {0};
@@ -41,3 +41,4 @@ int main(int argc, char *argv[]) {
 
 	return 0;
 }
+
