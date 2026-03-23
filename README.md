@@ -21,6 +21,7 @@ eval 1+1
 ... will print `2` to stdout.
 
 ## TODO
+- [ ] Global cleanup
 - [ ] Add support for brackets (add better support for relative numbers)
 - [ ] Add support for floating numbers
 - [ ] Add dynamic tokens support - fix overflow caused by >32bits numbers (int -> long long)
